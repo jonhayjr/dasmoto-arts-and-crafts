@@ -61,4 +61,13 @@
     background-color: mediumspringgreen;
 }
 
+/*Frames Section*/
+.frames {
+    margin-top: 3em;
+}
+
+.card__heading--frames {
+    background-color: lightcoral;
+}
+
 
