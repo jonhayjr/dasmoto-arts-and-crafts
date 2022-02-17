@@ -4,19 +4,61 @@
     box-sizing: border-box;
 }
 
+/*Reusable Styling*/
+.card__heading {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold; 
+    color: white;
+    margin-bottom: 1em;
+}
+
+.card__img {
+    margin-bottom: 1em;
+}
+
+.card__description-heading {
+    margin-bottom: 1em;
+}
+
+.card__description {
+    font-family: Helvetica;
+}
+
+.card__link {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /*Header*/
 .header {
     margin-top: 3em;
     background-image: url('../img/pattern.jpg');
     background-position: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .header__heading {
     font-family: Helvetica;
-    font-size: 100px;
+    font-size: 10vw;
     font-weight: bold;
     color: khaki;
     text-align: center;
 }
+/*Main*/
+.main {
+    padding: 0.5em;
+}
+
+/*Brushes Section*/
+.brushes {
+    margin-top: 3em;
+}
+
+.card__heading--brushes {
+    background-color: mediumspringgreen;
+}
+
 
