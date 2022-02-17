@@ -10,7 +10,7 @@
     font-size: 32px;
     font-weight: bold; 
     color: white;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
 }
 
 .card__img {
@@ -68,6 +68,15 @@
 
 .card__heading--frames {
     background-color: lightcoral;
+}
+
+/*Paint Section*/
+.paint {
+    margin-top: 3em;
+}
+
+.card__heading--paint {
+    background-color: skyblue;
 }
 
 
